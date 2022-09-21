@@ -14,9 +14,9 @@ echo -n Enter your choice :
 read mode
 
 case $mode in
-	1) sh mainstudent ;;
-	2) sh mainteacher ;;
-	3) sh mainadmin ;;
+	1) sh mainstudent.sh ;;
+	2) sh mainteacher.sh ;;
+	3) sh mainadmin.sh ;;
 	4) exit ;;
 	*) echo Incorrect choice ;;
 	
